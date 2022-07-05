@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    text-align: center;
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 15px;
+}
+
+p {
+    font-size: 2.8rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.cuadrado {
+    width: 20vw;
+    max-height: 80vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 20px;
+    text-align: center;
+}
+.triangulo {
+    width: 30vw;
+    max-height: 90vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 20px;
+    text-align: center;
+}
+.circulo {
+    width: 20vw;
+    max-height: 80vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px;
+}
+
+label {
+    width: 80%;
+    display: block;
+    font-size: 1.8rem;
+    margin: 12px;
+}
+input {
+    width: 70%;
+    font-size: 1.7rem;
+}
+
+button {
+    font-size: 1.7rem;
+    margin-top: 12px;
+}
+
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+    .cuadrado {
+        width: 75vw;
+    }
+    .cuadrado {
+        width: 75vw;
+    }
+    .triangulo {
+        width: 75vw;
+    }
+    .circulo {
+        width: 75vw;
+    }
+}
