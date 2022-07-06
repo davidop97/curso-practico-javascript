@@ -112,3 +112,26 @@ function calcularAreaCirculo() {
     const areaC = areaCirculo(inputRadio);
     alert(areaC);
 }
+
+//RETO
+
+function alturaTrianguloIsosceles(ladoTriangulo1, ladoTriangulo2, ladoTrianguloBase) {
+    if (ladoTriangulo1!=ladoTriangulo2) {
+        console.log('El triangulo no es Isosceles');
+    }
+    else {
+        const ladoTrianguloBaseP = ladoTrianguloBase/2;
+        alturaTriangulo = Math.sqrt(ladoTriangulo1**2-ladoTrianguloBaseP**2);
+        return alturaTriangulo;
+    }
+}
+
+function calcularAlturaTriangulo() {
+    const input5 = document.getElementById('InputLadoTriangulo1').value;
+    const input6 = document.getElementById('InputLadoTriangulo2').value;
+    const input7 = document.getElementById('InputBaseTriangulo').value;
+  
+
+    const altura = alturaTrianguloIsosceles(input5, input6, input7);
+    alert(altura);
+}

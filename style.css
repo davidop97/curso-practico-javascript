@@ -25,11 +25,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .cuadrado {
     width: 20vw;
+    min-width: 20vw;
     max-height: 80vh;
     border-radius: 5px;
     border: 1px solid black;
@@ -38,7 +39,8 @@ main {
     text-align: center;
 }
 .triangulo {
-    width: 30vw;
+    width: 20vw;
+    min-width: 20vw;
     max-height: 90vh;
     border-radius: 5px;
     border: 1px solid black;
@@ -48,7 +50,18 @@ main {
 }
 .circulo {
     width: 20vw;
+    min-width: 20vw;
     max-height: 80vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 20px;
+    text-align: center;
+}
+.triangulo-isosceles {
+    width: 20vw;
+    min-width: 20vw;
+    max-height: 90vh;
     border-radius: 5px;
     border: 1px solid black;
     padding: 3px;
@@ -84,17 +97,17 @@ button {
     margin-top: 12px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     main {
         flex-direction: column;
     }
     .cuadrado {
         width: 75vw;
     }
-    .cuadrado {
+    .triangulo {
         width: 75vw;
     }
-    .triangulo {
+    .triangulo-isosceles {
         width: 75vw;
     }
     .circulo {
