@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    text-align: center;
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementos {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    font-size: 1.6rem;
+}
+
+.promedio {
+    margin: 20px;
+    width: 20vw;
+    min-width: 20vw;
+    max-height: 90vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 20px;
+}
+
+.mediana {
+    margin: 20px;
+    width: 20vw;
+    min-width: 20vw;
+    max-height: 90vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 20px;
+}
+
+.moda {
+    margin: 20px;
+    width: 20vw;
+    min-width: 20vw;
+    max-height: 90vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px;
+}
+
+input {
+    width: 70%;
+    min-height: 40px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+button {
+    font-size: 1.7rem;
+    margin-top: 12px;
+    min-height: 40px;
+}
+
+footer {
+   font-size: 1.6rem; 
+    width: 20vw;
+    min-width: 20vw;
+    max-height: 90vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .elementos {
+        flex-direction: column;
+    }
+    .promedio {
+        width: 75vw;
+    }
+    .mediana {
+        width: 75vw;
+    }
+    .moda {
+        width: 75vw;
+    }
+}
