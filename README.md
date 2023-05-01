@@ -1,4 +1,4 @@
-# curso-practico-javascript
+# Ejercicios básicos de JavaScript
 
 ...
 
